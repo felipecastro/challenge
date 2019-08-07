@@ -11,16 +11,19 @@ Technologies used:
 
 # How to run
 
-- an explanation of what is needed to make your project work;
-- an explanation of how to perform the tests;
+npm install --save-dev nodemon
 
-Remember that at the time of the evaluation we will look at:
+npm install express --save
 
-- Code organization;
-- Object-Oriented Principles;
-- Unit tests
-- Maintenance;
+npm run start
 
-To send us your code, you must:
+# How to test
 
-Make a fork of this repository, and send us a pull-request.
+At Postman : 
+http://localhost:3000/products
+http://localhost:3000/products/vegan
+http://localhost:3000/products/vegan?order=asc
+
+With Mocha :
+
+npm run test
