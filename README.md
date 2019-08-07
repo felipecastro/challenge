@@ -19,11 +19,13 @@ Technologies used:
 
 ## How to test
 
-###At Postman
+### At Postman
 `http://localhost:3000/products`
+
 `http://localhost:3000/products/vegan`
+
 `http://localhost:3000/products/vegan?order=asc`
 
-###With Mocha
+### With Mocha
 
 `npm run test`
