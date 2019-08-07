@@ -9,21 +9,21 @@ Technologies used:
 - Mocha;
 - Chai;
 
-# How to run
+## How to run
 
-npm install --save-dev nodemon
+`npm install --save-dev nodemon`
 
-npm install express --save
+`npm install express --save`
 
-npm run start
+`npm run start`
 
-# How to test
+## How to test
 
-At Postman : 
-http://localhost:3000/products
-http://localhost:3000/products/vegan
-http://localhost:3000/products/vegan?order=asc
+###At Postman
+`http://localhost:3000/products`
+`http://localhost:3000/products/vegan`
+`http://localhost:3000/products/vegan?order=asc`
 
-With Mocha :
+###With Mocha
 
-npm run test
+`npm run test`
